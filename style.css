@@ -121,6 +121,101 @@ nav {
   line-height: 26px;
   margin-bottom: 30px;
 }
+/* Projects  started*/
+.project {
+  margin: 50px auto;
+  text-align: center;
+  background: #f8f9ff;
+  padding: 100px;
+}
+.project h2 {
+  margin-bottom: 50px;
+
+  font-family: "bebas neue";
+  font-weight: 500;
+  color: #f46060;
+  font-size: 3rem;
+}
+.working-projects {
+  color: #363958;
+  font-family: "bebas neue";
+  font-weight: 500;
+}
+.projects-card {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.project-single-card {
+  max-width: 370px;
+  /* border: 1px solid #f46060; */
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.07);
+  text-align: left;
+}
+.project-single-card img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.project-single-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #363958;
+  margin-bottom: 12px;
+}
+.project-single-card p {
+  font-size: 1rem;
+  color: #3c3c3c;
+  margin-bottom: 12px;
+  line-height: 26px;
+}
+/* Footer Section Started */
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-banner {
+  display: flex;
+  padding: 80px 70px;
+  justify-content: space-between;
+  max-width: 900px;
+  background: #4225b6;
+  color: white;
+  border-radius: 30px;
+  align-items: center;
+  /* border: 1px solid tomato; */
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+.footer-banner h2 {
+  font-size: 3rem;
+  font-family: "bebas neue";
+  font-weight: 500;
+}
+.footer-content h4 {
+  font-size: 1.5rem;
+  font-family: "bebas neue";
+  font-weight: 300;
+  color: #363958;
+  margin-bottom: 16px;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-family: "roboto";
+  font-weight: 700;
+  color: #363958;
+  margin-bottom: 16px;
+}
+.social-logos {
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+  margin-bottom: 80px;
+}
+.social-logos img {
+  max-width: 40px;
+}
 
 /* Mobile Device */
 @media screen and (max-width: 576px) {
