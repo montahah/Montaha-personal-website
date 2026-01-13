@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Bebas Neue", sans-serif;
+}
+/* Shared Styles */
+.display-flex {
+  display: flex;
+}
+/* Navbar Related Styles */
+nav {
+  margin-top: 35px;
+}
+.nav-links {
+  list-style-type: none;
+  gap: 40px;
+  justify-content: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: #3c3c3c;
+  font-size: 1rem;
+  font-weight: 500;
+}
+/* Hero Section Related Styles */
